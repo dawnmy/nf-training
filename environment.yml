@@ -1,0 +1,17 @@
+# CONDA ENVIRONMENT FILE
+name: nf-training
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nextflow=23.04.1
+  - nf-core=2.9
+  - R=4.3
+  - bwa=0.7.17
+  - fastp=0.23.4
+  - samtools=1.17
+  - kallisto=0.50.0
+  - salmon=1.10.2
+  - fastqc=0.12.1
+  - multiqc=1.14
