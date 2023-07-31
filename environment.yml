@@ -6,12 +6,12 @@ channels:
   - defaults
 dependencies:
   - nextflow=23.04.1
-  - nf-core=2.9
-  - R=4.3
+  - nf-core
+  - R
   - bwa=0.7.17
-  - fastp=0.23.4
+  - fastp
   - samtools=1.17
-  - kallisto=0.50.0
-  - salmon=1.10.2
-  - fastqc=0.12.1
-  - multiqc=1.14
+  - kallisto
+  - salmon
+  - fastqc
+  - multiqc
